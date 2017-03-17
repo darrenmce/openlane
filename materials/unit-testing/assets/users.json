@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "first_name": "Margaret",
+    "last_name": "Sims",
+    "email": "msims0@tuttocitta.it",
+    "gender": "Female",
+    "ip_address": "114.35.162.243"
+  },
+  {
+    "id": 2,
+    "first_name": "Bobby",
+    "last_name": "Franklin",
+    "email": "bfranklin1@tripod.com",
+    "gender": "Male",
+    "ip_address": "157.55.200.201"
+  },
+  {
+    "id": 3,
+    "first_name": "Deborah",
+    "last_name": "Oliver",
+    "email": "doliver2@taobao.com",
+    "gender": "Female",
+    "ip_address": "87.30.11.139"
+  },
+  {
+    "id": 4,
+    "first_name": "Joseph",
+    "last_name": "Flores",
+    "email": "jflores3@prlog.org",
+    "gender": "Male",
+    "ip_address": "136.53.196.74"
+  },
+  {
+    "id": 5,
+    "first_name": "Jason",
+    "last_name": "Ryan",
+    "email": "jryan4@cpanel.net",
+    "gender": "Male",
+    "ip_address": "151.110.94.198"
+  },
+  {
+    "id": 6,
+    "first_name": "Joe",
+    "last_name": "Jenkins",
+    "email": "jjenkins5@sakura.ne.jp",
+    "gender": "Male",
+    "ip_address": "100.201.243.22"
+  },
+  {
+    "id": 7,
+    "first_name": "Christine",
+    "last_name": "Harrison",
+    "email": "charrison6@slashdot.org",
+    "gender": "Female",
+    "ip_address": "170.109.33.18"
+  },
+  {
+    "id": 8,
+    "first_name": "Carlos",
+    "last_name": "Lawson",
+    "email": "clawson7@yellowbook.com",
+    "gender": "Male",
+    "ip_address": "144.133.179.65"
+  },
+  {
+    "id": 9,
+    "first_name": "Karen",
+    "last_name": "Gibson",
+    "email": "kgibson8@engadget.com",
+    "gender": "Female",
+    "ip_address": "0.1.74.167"
+  },
+  {
+    "id": 10,
+    "first_name": "Brian",
+    "last_name": "Clark",
+    "email": "bclark9@nasa.gov",
+    "gender": "Male",
+    "ip_address": "46.169.185.171"
+  }
+]

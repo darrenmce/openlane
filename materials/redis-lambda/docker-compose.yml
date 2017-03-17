@@ -1,0 +1,17 @@
+version: '2'
+services:
+
+  ####### infrastructure
+
+  redis:
+    image: redis
+
+  ####### services
+
+  redis-lambda:
+    image: lambci/lambda:nodejs4.3
+    links:
+      - redis
+    volumes:
+      - .:/var/task:ro
+

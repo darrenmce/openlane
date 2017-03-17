@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "first_name": "Margaret",
+    "last_name": "Sims",
+    "email": "msims0@tuttocitta.it",
+    "gender": "Female",
+    "ip_address": "114.35.162.243"
+  },
+  {
+    "id": 2,
+    "first_name": "Bobby",
+    "last_name": "Franklin",
+    "email": "bfranklin1@tripod.com",
+    "gender": "Male",
+    "ip_address": "157.55.200.201"
+  },
+  {
+    "id": 3,
+    "first_name": "Deborah",
+    "last_name": "Oliver",
+    "email": "doliver2@taobao.com",
+    "gender": "Female",
+    "ip_address": "87.30.11.139"
+  },
+  {
+    "id": 4,
+    "first_name": "Joseph",
+    "last_name": "Flores",
+    "email": "jflores3@prlog.org",
+    "gender": "Male",
+    "ip_address": "136.53.196.74"
+  },
+  {
+    "id": 5,
+    "first_name": "Jason",
+    "last_name": "Ryan",
+    "email": "jryan4@cpanel.net",
+    "gender": "Male",
+    "ip_address": "151.110.94.198"
+  }
+]
+

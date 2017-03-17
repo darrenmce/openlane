@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e 
+
+docker run -v "$PWD":/var/task lambci/lambda
+
