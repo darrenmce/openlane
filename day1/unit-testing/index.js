@@ -1,4 +1,7 @@
-const userLib = require('./users.js');
+const createUserLib = require('./users.js');
+const resources = require('./resources.js');
+
+const userLib = createUserLib(resources);
 
 userLib.getName(3, (err, name) => {
   if (err) {
