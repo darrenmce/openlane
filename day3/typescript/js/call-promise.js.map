@@ -1,0 +1,1 @@
+{"version":3,"file":"call-promise.js","sourceRoot":"","sources":["../ts/call-promise.ts"],"names":[],"mappings":"AAAA;IACE,MAAM,CAAC,IAAI,OAAO,CAAC,UAAC,OAAO;QACzB,OAAO,CAAC,YAAY,CAAC,CAAC;IACxB,CAAC,CAAC,CAAC;AACL,CAAC;AAED,MAAM,CAAC,OAAO,GAAG;IACf,OAAO,EAAE,WAAW;CACrB,CAAC"}

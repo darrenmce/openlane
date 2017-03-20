@@ -1,0 +1,13 @@
+# For full config options, check the docs:
+#    docs.serverless.com
+#
+
+service: ol-ts-node # NOTE: update this with your service name
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  tsHandler:
+    handler: entry.tsHandler
