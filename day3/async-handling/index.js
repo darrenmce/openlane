@@ -1,10 +1,11 @@
-const connect = require('./db.js');
 const EventEmitter = require('events');
 
 const logger = new EventEmitter();
 logger.on('log', (msg) => { console.log(msg); });
+logger.on('error', (err) => { console.log(err.message); });
 
 function noLibrary() {
+  const connect = require('./db.js');
 
   connect((err, conn) => {
     if (err) throw err;
@@ -27,4 +28,29 @@ function noLibrary() {
   });
 }
 
-noLibrary();
+const Promise = require('bluebird');
+
+function log(message) {
+  logger.emit('log', message);
+}
+
+function promises() {
+  const connect = require('./db-promises.js');
+
+  connect()
+    .then((conn) => {
+      log('connected');
+      return conn.createTable('demo')
+        .then(log)
+        .then(() => conn.insertData('some data'))
+        .then(log)
+        .then(() => conn.close())
+        .then(log)
+    })
+    .catch((err) => {
+      logger.emit('error', err);
+    });
+}
+
+//noLibrary();
+promises();
