@@ -1,0 +1,10 @@
+<app-header
+        [title]="title"
+        (logIn)="onLogin()"
+></app-header>
+<app-input
+        [(foo)]="someData"
+        (fooChange)="listenOnly($event)"
+></app-input>
+<h2>Output</h2>
+<div>{{ someData }}</div>
