@@ -6,6 +6,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  @Input() isLoggedIn = false;
   @Input() title = '';
   @Output() logIn = new EventEmitter<void>();
 

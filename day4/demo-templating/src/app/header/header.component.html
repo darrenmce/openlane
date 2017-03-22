@@ -1,0 +1,11 @@
+<h1>{{ title }}</h1>
+<template [ngIf]="!isLoggedIn">
+        <button
+        (click)="onLogIn()"
+        >Log In</button>
+</template>
+<button
+        *ngIf="!isLoggedIn"
+        (click)="onLogIn()"
+>Log In</button>
+<hr/>

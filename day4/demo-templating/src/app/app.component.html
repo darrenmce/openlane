@@ -1,0 +1,15 @@
+<app-header
+        [title]="title"
+        (logIn)="onLogin()"
+        [isLoggedIn]="isLoggedIn"
+></app-header>
+<app-input
+        [(foo)]="someData"
+        (fooChange)="listenOnly($event)"
+></app-input>
+<h2>Output</h2>
+<div>This value will _eventually_ show up
+    {{ someEventualValue | async | toUpperCase }}</div>
+
+<div>{{ someData | toUpperCase }}</div>
+<app-string-list [list]="names"></app-string-list>
